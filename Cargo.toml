@@ -1,0 +1,11 @@
+[package]
+name = "test-thread-local-with-miri"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bumpalo = { version = "3.16.0", features = ["collections"] }
+rayon = "1.10.0"
+scoped_threadpool = "0.1.9"
+thread_local = "1.1.8"
+threadpool = "1.8.1"
